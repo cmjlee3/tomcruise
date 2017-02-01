@@ -1,0 +1,30 @@
+{
+  "name": "tom-cruise-movie-db",
+  "version": "1.0.0",
+  "description": "tom cruise movie db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:cecillee/tom-cruise-movie-db.git"
+  },
+  "author": "Cecil Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  },
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
